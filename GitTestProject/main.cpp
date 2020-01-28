@@ -1,4 +1,5 @@
 #include <iostream>
+#include "divisionComponent.h"
 
 using namespace std;
 
