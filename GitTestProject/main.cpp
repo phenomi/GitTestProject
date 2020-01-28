@@ -22,23 +22,24 @@ int main() {
 	cout << "Desired operation: ";
 	cin >> chosenOperator;
 
+	cout << "The result of the calculation is";
 	switch(chosenOperator) {
 		case '+':
-			addNumbers(number1, number2);
+			cout << " " << addNumbers(number1, number2);
 			break;
 		case '-':
-			subtractNumbers(number1, number2);
+			cout << " " << subtractNumbers(number1, number2);
 			break;
 		case '/':
-			divideNumbers(number1, number2);
+			cout << " " << divideNumbers(number1, number2);
 			break;
 		case '*':
-			multiplyNumbers(number1, number2);
+			cout << " " << multiplyNumbers(number1, number2);
 			break;
 		default:
-			cout << "Invalid input." << endl;
+			cout << ": Could not be calculated, invalid input. Please try again." << endl;
 	}
-
+	cout << endl << endl;
 
 	return 0;
 }
