@@ -1,4 +1,5 @@
 #include <iostream>
+#include "multiplicationComponent.h"
 
 using namespace std;
 
