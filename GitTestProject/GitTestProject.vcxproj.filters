@@ -18,6 +18,14 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="multiplicationComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multiplicationComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClCompile Include="divisionComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

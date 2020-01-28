@@ -140,6 +140,10 @@
   <ItemGroup>
     <ClCompile Include="divisionComponent.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="multiplicationComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multiplicationComponent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="divisionComponent.h" />
