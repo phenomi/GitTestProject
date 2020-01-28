@@ -1,6 +1,7 @@
 #include <iostream>
 #include "multiplicationComponent.h"
 #include "divisionComponent.h"
+#include "exponentiationComponent.h"
 
 using namespace std;
 
@@ -12,13 +13,14 @@ int main() {
 	int number1 = 1;
 	int number2 = 1;
 	char chosenOperator;
+	double resultArray[] = { 0, 0 };
 	cout << "Please enter two (2) integers that you want" << endl
-		<< "to add, subtract, divide, or multiply." << endl << endl;
+		<< "to add, subtract, divide, multiply or exponentiate." << endl << endl;
 
 	cout << "Entered integers: ";
 	cin >> number1 >> number2;
 
-	cout << "Please type + , - , / , or * depending on" << endl
+	cout << "Please type + , - , / , * or ^ depending on" << endl
 		<< "what kind of an operation you want to perform." << endl << endl;
 
 	cout << "Desired operation: ";
@@ -37,6 +39,10 @@ int main() {
 			break;
 		case '*':
 			cout << " " << multiplyNumbers(number1, number2);
+			break;
+		case '^':
+			exponentiateNumbers(number1, number2, resultArray);
+			cout << ": first number " << resultArray[0] << ", second number " << resultArray[1] << ".";
 			break;
 		default:
 			cout << ": Could not be calculated, invalid input. Please try again." << endl;
