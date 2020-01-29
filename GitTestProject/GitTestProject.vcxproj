@@ -139,10 +139,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="divisionComponent.cpp" />
+    <ClCompile Include="exponentiationComponent.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="multiplicationComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exponentiationComponent.h" />
     <ClInclude Include="multiplicationComponent.h" />
   </ItemGroup>
   <ItemGroup>
